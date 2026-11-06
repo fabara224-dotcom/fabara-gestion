@@ -1,0 +1,17 @@
+.env
+.DS_Store
+/fabara-gestion-web/vendor/
+/fabara-gestion-web/node_modules/
+/fabara-gestion-web/.env
+/fabara-gestion-web/storage/*.key
+/fabara-gestion-web/storage/logs/
+/fabara-gestion-web/storage/framework/
+/fabara-gestion-web/storage/app/public/
+/fabara-gestion-web/database/database.sqlite
+/fabara-gestion-web/public/storage
+mobile/build/
+mobile/.dart_tool/
+mobile/.flutter-plugins*
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/ios/Pods/

@@ -1,0 +1,35 @@
+name: fabara_gestion
+description: Application mobile Fabara Gestion — caisse, stock et reçus, fonctionne hors ligne.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.6.0 <4.0.0'   # Flutter 3.27 ou plus récent
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.1.2
+  http: ^1.2.2
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  path_provider: ^2.1.4
+  uuid: ^4.4.2
+  connectivity_plus: ^6.0.5
+  shared_preferences: ^2.3.2
+  image_picker: ^1.1.2
+  pdf: ^3.11.1
+  printing: ^5.13.2
+  share_plus: ^10.0.2
+  intl: ^0.19.0
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
